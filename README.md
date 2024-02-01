@@ -1,12 +1,10 @@
-The content below is an example project proposal / requirements document. Replace the text below the lines marked "__TODO__" with details specific to your project. Remove the "TODO" lines.
-
-(__TODO__: your project name)
+A project for an Applied Internet Technology course:
 
 # F1 Fantasy League
 
 ## Overview
 
-(__TODO__: a brief one or two paragraph, high-level description of your project)
+
 
 This application would be a fantasy league including the current 20 drivers and 10 teams present in the Formula One Season. Users will be able to choose their own constructor (team) and 2 drivers. The choice will be limited by a budget system. 
 
@@ -15,7 +13,6 @@ Once users have their teams set up, they will be able to participate in events l
 
 ## Data Model
 
-(__TODO__: a description of your application's data and their relationships to each other) 
 
 The application will store Users, Drivers, Constructors, and Team Principals
 
@@ -23,7 +20,6 @@ The application will store Users, Drivers, Constructors, and Team Principals
 *Users can have a maximum of 1 Constructor
 *Users can have a maximum of 1 Team Principal
 
-(__TODO__: sample documents)
 
 An Example User:
 
@@ -72,12 +68,10 @@ An Example Team Principal:
 
 ## [Link to Commented First Draft Schema](db.mjs) 
 
-(__TODO__: create a first draft of your Schemas in db.mjs and link to it)
 [db.mjs](db.mjs)
 
 ## Wireframes
 
-(__TODO__: wireframes for all of the pages on your site; they can be as simple as photos of drawings or you can use a tool like Balsamiq, Omnigraffle, etc.)
 
 /register - page for registering new user
 
@@ -109,13 +103,10 @@ An Example Team Principal:
 
 ## Site map
 
-(__TODO__: draw out a site map that shows how pages are related to each other)
 
 ![list](documentation/sitemap.png)
 
 ## User Stories or Use Cases
-
-(__TODO__: write out how your application will be used through [user stories](http://en.wikipedia.org/wiki/User_story#Format) and / or [use cases](https://en.wikipedia.org/wiki/Use_case))
 
 1. as non-registered user, I can register a new account with the site
 2. as a user, I can log in to the site
@@ -126,8 +117,6 @@ An Example Team Principal:
 7. as a user, I can request a transfer, changing either my drivers or my team principal at a cost to my championship points
 
 ## Research Topics
-
-(__TODO__: the research topics that you're planning on working on along with their point values... and the total points of research topics listed)
 
 * (3 points) Configuration management
     * I'm going to be using dotenv for configuration management
@@ -141,15 +130,12 @@ An Example Team Principal:
 
 ## [Link to Initial Main Project File](app.mjs) 
 
-(__TODO__: create a skeleton Express application with a package.json, app.mjs, views folder, etc. ... and link to your initial app.mjs)
 
 [app.mjs](app.mjs)
 
 [link to lines of code which show how requirements have been met](documentation/requirements_evidence.md)
 
 ## Annotations / References Used
-
-(__TODO__: list any tutorials/references/etc. that you've based your code off of)
 
 1. [tutorial on vue.js](https://www.youtube.com/watch?v=YrxBCBibVo0)
 2. [tutorial on deploy](https://www.youtube.com/watch?v=W-b9KGwVECs)
